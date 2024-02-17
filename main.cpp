@@ -10,9 +10,9 @@ int main() {
 
 	std::ofstream out("CooldownFile.txt");
 
-	std::cout << "Input Power Names: ";
+	std::cout << "Input the three power names: ";
 	std::cin >> powerNames[0] >> powerNames[1] >> powerNames[2];
-	std::cout << "Input Respective Cooldowns: ";
+	std::cout << "Input their respective cooldowns (in order): ";
 	std::cin >> cooldowns[0] >> cooldowns[1] >> cooldowns[2];
 
 	for (int i = 0; i < 3; ++i) {
