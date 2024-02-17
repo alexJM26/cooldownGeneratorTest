@@ -2,6 +2,8 @@
 #include <fstream>
 #include <string>
 
+// test comment
+
 int main() {
 
 	// declaring variables
