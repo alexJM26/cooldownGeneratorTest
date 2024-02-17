@@ -29,7 +29,7 @@ int main() {
 
 	out << "## POWER 1: " << powerNames[0] << std::endl;
 
-	// power 1
+	// power 1 cooldown
 	for (int i = cooldowns[0]; i >= 0; i-=20) {
 		minutes = i / 1200;
 		seconds = (i - ((i / 1200) * 1200)) / 20;
@@ -46,7 +46,7 @@ int main() {
 
 	out << std::endl << "## POWER 2: " << powerNames[1] << std::endl;
 
-	// power 2
+	// power 2 cooldown
 	for (int i = cooldowns[1]; i >= 0; i-=20) {
 		minutes = i / 1200;
 		seconds = (i - ((i / 1200) * 1200)) / 20;
@@ -64,7 +64,7 @@ int main() {
 
 	out << std::endl << "## POWER 3: " << powerNames[2] << std::endl;
 
-	// power 3
+	// power 3 cooldown
 	for (int i = cooldowns[2]; i >= 0; i-=20) {
 		minutes = i / 1200;
 		seconds = (i - ((i / 1200) * 1200)) / 20;
