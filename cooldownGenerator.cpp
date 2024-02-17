@@ -80,4 +80,6 @@ int main() {
 			out << "execute if entity @s[scores={cooldown3=" << i - 19 << ".." << i << ",powerSlot=2}] run title @s actionbar "
 			<< powerNames[2] << ": " << minutes << ":0" << seconds << std::endl;
 	}
+
+	std::cout << "Done!" << std::endl;
 }
