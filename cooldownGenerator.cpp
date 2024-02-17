@@ -4,17 +4,19 @@
 
 int main() {
 
+	// declaring variables
 	std::string powerNames[3];
 	int cooldowns[3];
 	int minutes, seconds;
 
-	std::ofstream out("CooldownFile.txt");
+	std::ofstream out("CooldownFile.txt"); // creates output file
 
-	std::cout << "Input the three power names: ";
+	std::cout << "Input the three power names (use '_' for spaces): ";
 	std::cin >> powerNames[0] >> powerNames[1] >> powerNames[2];
 	std::cout << "Input their respective cooldowns (in order): ";
 	std::cin >> cooldowns[0] >> cooldowns[1] >> cooldowns[2];
 
+	// change names with '_' to names with spaces
 	for (int i = 0; i < 3; ++i) {
 		std::string name = powerNames[i];
 		int j = 0;
